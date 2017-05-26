@@ -1,5 +1,5 @@
 
-
+<?php
 require_once __DIR__ . '/../vendor/autoload.php';
 
 $app = new Silex\Application();
@@ -20,3 +20,4 @@ if (PHP_SAPI != 'cli') {
 
 return $app;
 
+?>
